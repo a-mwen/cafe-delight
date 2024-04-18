@@ -1,0 +1,112 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #ffcc66;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Menu styles */
+#menu {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-category ul {
+    list-style-type: none;
+}
+
+.menu-category ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* About section styles */
+#about {
+    background-color: #f8f8f8;
+    padding: 40px;
+}
+
+#about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
